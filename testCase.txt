@@ -1,0 +1,8 @@
+teste = Firebase()
+user = "c7SuT4LfBT1NrZ6T0yHV"
+dados = {
+    "data": datetime.datetime.now(tz=datetime.timezone.utc),
+    "producao_diaria": 14.2,
+    "temperatura": 3.2
+}
+teste.getConfig(user)
